@@ -524,7 +524,7 @@ const PortfolioChatbot: React.FC = () => {
         {/* Input Container */}
         <div
           className={`flex-shrink-0 transition-all duration-700 ease-in-out ${
-            isExpanded ? 'px-2 sm:px-3 md:px-4 pt-0 pb-4' : 'px-2 sm:px-3 md:px-4 py-6'
+            isExpanded ? 'px-2 sm:px-3 md:px-4 pt-0 pb-0' : 'px-2 sm:px-3 md:px-4 py-6 pb-0'
           }`}
         >
           <div
@@ -593,6 +593,11 @@ const PortfolioChatbot: React.FC = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Static Notice */}
+      <div className="text-center text-xs text-slate-500 py-2">
+        Note: This is a static, rule-based demo. It is not yet connected to a live AI API.
       </div>
 
       <style jsx>{`

@@ -22,4 +22,4 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Demo
 http://203.241.246.181:3000/
-![alt text](image.png)
+![alt text](image-1.png)
